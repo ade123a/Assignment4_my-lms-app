@@ -1,5 +1,4 @@
 ...\my-lms-app>npm ls react-router-dom
-my-lms-app@0.1.0 C:\Users\bashi\UofC\2025_WINTER\ENSF381\Assignment4\my-lms-app
     -- react-router-dom@7.4.0
 
 # Getting Started with Create React App
