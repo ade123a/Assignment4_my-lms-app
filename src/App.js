@@ -1,6 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import { Route } from 'react-router-dom';
+import React from 'react';
+import Header from './Header';
+import MainSection from './MainSection';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -11,15 +13,13 @@ function App() {
         <h1>LMS - Learning Management System</h1>
       </header>
 
-      <BrowserRouter>
-      <Route path="/home" compoment={Home} />
-      <Route path="/courses" compoment={Courses} />
-      <Route path="/login" compoment={login} />
       
-      </BrowserRouter>
-
-
-    </div>
+      
+      <Header />
+      <MainSection />
+      <Footer />
+</div>
+    
   );
 }
 
