@@ -1,3 +1,5 @@
+
+
 const courses = [
     {
     id: 1,
@@ -5,7 +7,7 @@ const courses = [
     instructor: "Dr. John Smith",
     description: "Master HTML, CSS, and JavaScript.",
     duration: "8 weeks",
-    image: "images/course1.jpg",
+    image: "../images/course1.jpg",
     },
     {
         id: 2,
@@ -13,7 +15,7 @@ const courses = [
         instructor: "Dr. Jane Doe",
         description: "Learn data analysis and machine learning.",
         duration: "10 weeks",
-        image: "images/course2.jpg"
+        image: "../images/course2.jpg"
     },
     {
         id: 3,
@@ -21,7 +23,7 @@ const courses = [
         instructor: "Dr. Emily Davis",
         description: "Create mobile applications for Android and iOS.",
         duration: "12 weeks",
-        image: "images/course3.jpg"
+        image: "../images/course3.jpg"
     },
     {
         id: 4,
@@ -29,7 +31,7 @@ const courses = [
         instructor: "Dr. Michael Brown",
         description: "Understand the principles of cyber security.",
         duration: "6 weeks",
-        image: "images/course4.jpg"
+        image: "../images/course4.jpg"
     },
     {
         id: 5,
@@ -37,7 +39,7 @@ const courses = [
         instructor: "Dr. Sarah Wilson",
         description: "Explore cloud services and architecture.",
         duration: "8 weeks",
-        image: "images/course5.jpg"
+        image: "../images/course5.jpg"
     },
     {
         id: 6,
@@ -45,7 +47,7 @@ const courses = [
         instructor: "Dr. Robert Johnson",
         description: "Dive into AI concepts and applications.",
         duration: "10 weeks",
-        image: "images/course6.jpg"
+        image: "../images/course6.jpg"
     },
     {
         id: 7,
@@ -53,7 +55,7 @@ const courses = [
         instructor: "Dr. Linda Martinez",
         description: "Learn about blockchain and its uses.",
         duration: "7 weeks",
-        image: "images/course7.jpg"
+        image: "../images/course7.jpg"
     },
     {
         id: 8,
@@ -61,7 +63,7 @@ const courses = [
         instructor: "Dr. William Lee",
         description: "Develop games using Unity and Unreal Engine.",
         duration: "12 weeks",
-        image: "images/course8.jpg"
+        image: "../images/course8.jpg"
     },
     {
         id: 9,
@@ -69,7 +71,7 @@ const courses = [
         instructor: "Dr. Patricia Taylor",
         description: "Explore IoT devices and applications.",
         duration: "9 weeks",
-        image: "images/course9.jpg"
+        image: "../images/course9.jpg"
     },
     {
         id: 10,
@@ -77,7 +79,8 @@ const courses = [
         instructor: "Dr. Charles Anderson",
         description: "Analyze and process large data sets.",
         duration: "11 weeks",
-        image: "images/course10.jpg"
+        image: "../images/course10.jpg"
     }
     ];
-    export default courses;
+
+export default courses;

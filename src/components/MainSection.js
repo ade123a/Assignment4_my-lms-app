@@ -23,7 +23,7 @@ const MainSection = () => {
         <div className="courses-container">
           {featuredCourses.map((course) => (
             <div key={course.id} className="course-card">
-              <img src={course.image} alt={course.name} width="200" />
+              <img src={course.image} alt={course.name} width="50" />
               <h3>{course.name}</h3>
               <p>Instructor: {course.instructor}</p>
             </div>

@@ -1,19 +1,23 @@
 import { Link } from 'react-router-dom';
 
-function home() {
+function Home() {
   return (
     <div>
       <h1>Home</h1>
-      <p>Welcome to the home page</p>
-      <h1>Welcome to the home page!</h1>
-      <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-        <a href='/'> Home </a>
-        <a href='/login'> Login </a>
-        <a href='/Courses'> Courses </a>
+      <div >
+        <nav style={styles.header}>
+        <a href='/' style={styles.link}> Home </a>
+        <a href='/login' style={styles.link}> Login </a>
+        <a href='/Courses'  style={styles.link}> Courses </a>
+        </nav>
       </div>
     </div>
   );
 }
+const styles = {
+  header: { display: "flex", justifyContent: "space-between", padding: "10px", backgroundColor: "#003366", color: "white" },
+  link: { margin: "0 10px", color: "white", textDecoration: "none" }
+};
 
-export default home;
+export default Home;
 
