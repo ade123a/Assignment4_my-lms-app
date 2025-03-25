@@ -5,7 +5,7 @@ const courses = [
     instructor: "Dr. John Smith",
     description: "Master HTML, CSS, and JavaScript.",
     duration: "8 weeks",
-    image: "images/course1.jpg"
+    image: "images/course1.jpg",
     },
     {
         id: 2,
