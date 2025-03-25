@@ -1,14 +1,19 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Router, Link } from "react-router-dom";
+import home from "./components/home";
+import login from "./Login";
+import courses from "./components/Courses";
 
-const Header = () => {
+
+
+function Header() {
   return (
     <BrowserRouter>
       <header style={styles.header}>
           <Routes>
-            <Route path="/" element={<a href="/" style={styles.link}>Home</a>} />
-            <Route path="/courses" element={<a href="/courses" style={styles.link}>Courses</a>} />
-            <Route path="/login" element={<a href="/login" style={styles.link}>Login</a>} />
+            <Route path="/" element={<home/>} />
+            <Route path="/courses" element={<courses/>} />
+            <Route path="/login" element={<login/>} />
           </Routes>
       </header>
     </BrowserRouter>

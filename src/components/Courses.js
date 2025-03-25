@@ -1,4 +1,4 @@
-function Courses() {
+function courses() {
   return (
     <div>
       <h1>Courses</h1>
@@ -6,4 +6,4 @@ function Courses() {
   );
 }
 
-export default Courses;
+export default courses;
