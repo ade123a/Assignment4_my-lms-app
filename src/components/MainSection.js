@@ -13,14 +13,11 @@ const MainSection = () => {
 
   return (
     <main>
-      <section>
-        <h2>About LMS</h2>
-        <p>Welcome to our LMS, where students can explore and enroll in various courses.</p>
-      </section>
 
       <section>
         <h2>Featured Courses</h2>
         <div className="courses-container">
+          <hr />
           {featuredCourses.map((course) => (
             <div key={course.id} className="course-card">
               <img src={course.image} alt={course.name} width="50" />
