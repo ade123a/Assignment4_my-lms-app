@@ -1,13 +1,22 @@
-
+import course1 from "../images/course1.jpg";
+import course2 from "../images/course2.jpg";
+import course3 from "../images/course3.jpg";
+import course4 from "../images/course4.jpg";
+import course5 from "../images/course5.jpg";
+import course6 from "../images/course6.jpg";
+import course7 from "../images/course7.jpg";
+import course8 from "../images/course8.jpg";
+import course9 from "../images/course9.jpg";
+import course10 from "../images/course10.jpg";
 
 const courses = [
     {
-    id: 1,
-    name: "Web Development",
-    instructor: "Dr. John Smith",
-    description: "Master HTML, CSS, and JavaScript.",
-    duration: "8 weeks",
-    image: "../images/course1.jpg",
+        id: 1,
+        name: "Web Development",
+        instructor: "Dr. John Smith",
+        description: "Master HTML, CSS, and JavaScript.",
+        duration: "8 weeks",
+        image: course1,
     },
     {
         id: 2,
@@ -15,7 +24,7 @@ const courses = [
         instructor: "Dr. Jane Doe",
         description: "Learn data analysis and machine learning.",
         duration: "10 weeks",
-        image: "../images/course2.jpg"
+        image: course2,
     },
     {
         id: 3,
@@ -23,7 +32,7 @@ const courses = [
         instructor: "Dr. Emily Davis",
         description: "Create mobile applications for Android and iOS.",
         duration: "12 weeks",
-        image: "../images/course3.jpg"
+        image: course3,
     },
     {
         id: 4,
@@ -31,7 +40,7 @@ const courses = [
         instructor: "Dr. Michael Brown",
         description: "Understand the principles of cyber security.",
         duration: "6 weeks",
-        image: "../images/course4.jpg"
+        image: course4,
     },
     {
         id: 5,
@@ -39,7 +48,7 @@ const courses = [
         instructor: "Dr. Sarah Wilson",
         description: "Explore cloud services and architecture.",
         duration: "8 weeks",
-        image: "../images/course5.jpg"
+        image: course5,
     },
     {
         id: 6,
@@ -47,7 +56,7 @@ const courses = [
         instructor: "Dr. Robert Johnson",
         description: "Dive into AI concepts and applications.",
         duration: "10 weeks",
-        image: "../images/course6.jpg"
+        image: course6,
     },
     {
         id: 7,
@@ -55,7 +64,7 @@ const courses = [
         instructor: "Dr. Linda Martinez",
         description: "Learn about blockchain and its uses.",
         duration: "7 weeks",
-        image: "../images/course7.jpg"
+        image: course7,
     },
     {
         id: 8,
@@ -63,7 +72,7 @@ const courses = [
         instructor: "Dr. William Lee",
         description: "Develop games using Unity and Unreal Engine.",
         duration: "12 weeks",
-        image: "../images/course8.jpg"
+        image: course8,
     },
     {
         id: 9,
@@ -71,7 +80,7 @@ const courses = [
         instructor: "Dr. Patricia Taylor",
         description: "Explore IoT devices and applications.",
         duration: "9 weeks",
-        image: "../images/course9.jpg"
+        image: course9,
     },
     {
         id: 10,
@@ -79,8 +88,8 @@ const courses = [
         instructor: "Dr. Charles Anderson",
         description: "Analyze and process large data sets.",
         duration: "11 weeks",
-        image: "../images/course10.jpg"
-    }
-    ];
+        image: course10,
+    },
+];
 
 export default courses;
