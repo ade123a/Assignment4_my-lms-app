@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import courses from "../data/courses";
 import testimonials from "../data/testimonial";
+import "./MainSection.css"; 
+
+
 
 
 const MainSection = () => {
@@ -13,47 +16,39 @@ const MainSection = () => {
   }, []);
 
   return (
-    <main>
-      <section></section>
-      <section>
+    <main className="courseview">
         <h2 style={{ textAlign: "center" }}>Featured Courses</h2>
-        <div className="courses-container">
           <hr />
-          <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "center" }}>
-            <thead>
-              <tr>
-                <th>Image</th>
-                <th>Course Name</th>
-                <th>Instructor</th>
-              </tr>
-            </thead>
-            <tbody>
-              {featuredCourses.map((course) => (
-                <tr key={course.id}>
-                  <td><img src={course.image} alt={course.name} width="100" /></td>
-                  <td>{course.name}</td>
-                  <td>{course.instructor}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
 
-      <section>
-        <h2 style={{ textAlign: "center" }}>Testimonials</h2>
-        <div className="testimonials-container" style={{ textAlign: "center" }}>
-          <hr />
-          
+          <table className="cv">
+            <tr>
+              {featuredCourses.map((course) => (
+                  <td>
+                  <img src={course.image} alt={course.name}  />
+                  <p>{course.name}</p>
+                  <p>{course.instructor}</p>
+                  </td>
+            
+              ))}
+            </tr>
+              
+          </table>
+
+        <h2 >Testimonials</h2>
+        <hr />
+        <table className="cv">
+          <tr>
           {displayedTestimonials.map((testimonial, index) => (
-            <div key={index} className="testimonial-card" style={{ margin: "20px", padding: "10px", border: "1px solid #ccc", borderRadius: "5px", display: "inline-block" }}>
+            <td>
+            <div key={index} className="testimonial-card" >
               <p><strong>{testimonial.studentName}</strong> - {testimonial.courseName}</p>
               <p>"{testimonial.review}"</p>
               <p>Rating: {"★".repeat(testimonial.rating)}</p>
             </div>
+            </td>
           ))}
-        </div>
-      </section>
+          </tr>
+      </table>
     </main>
   );
 };
