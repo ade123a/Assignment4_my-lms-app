@@ -36,7 +36,7 @@ function Home() {
 }
 const styles = {
   header: { display: "flex", justifyContent: "space-between", padding: "10px", backgroundColor: "#003366", color: "white" },
-  link: { margin: "0 10px", color: "white", textDecoration: "none" }
+  link: { margin: "0px 10px", color: "white", textDecoration: "none" }
 };
 
 export default Home;
