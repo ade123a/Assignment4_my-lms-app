@@ -1,9 +1,16 @@
-function Login() {
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import LoginForm from './LoginForm';
+
+function LoginPage() {
   return (
     <div>
-      <h1>Login</h1>
+      <Header />
+      <LoginForm />
+      <Footer />
     </div>
   );
 }
 
-export default Login;
+export default LoginPage;
